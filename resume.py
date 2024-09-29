@@ -188,7 +188,7 @@ if __name__ == "__main__":
         action="store_true",
     )
     parser.add_argument(
-        "--no-pdf",
+        "--yes-pdf",
         help="Do not write pdf output",
         action="store_true",
     )
@@ -218,5 +218,5 @@ if __name__ == "__main__":
             htmlfp.write(html)
             logging.info(f"Wrote {htmlfp.name}")
 
-    if not args.no_pdf:
+    if args.yes_pdf:
         write_pdf(html, prefix=prefix, chrome=args.chrome_path)
