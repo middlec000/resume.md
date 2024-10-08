@@ -16,21 +16,27 @@ adaptive variants. -->
 
 ## Professional Experience
 ### <span>Data Scientist II | Pearl Health | New York, NY </span> <span>June 2024 --- Present</span>
- - Built data ingest and versioning pipeline for internal pricing tool using [dbt](https://www.getdbt.com/) which enabled better data testing, cross-version analysis, and more explainable changes in performance forecast reports.
+ - Built data ingest and versioning pipeline for internal pricing tool using data build tool which enabled better data testing, cross-version analysis, and more explainable changes in performance forecast reports.
+ <!-- TODO: add data testing metric -->
  - Designed a system to track and facilitate the completion of input to the company pricing tool to enable sales funnel performance analysis and monitoring.
+<!-- TODO: add metric about increased complexity -->
  - Performed 50 individualized analyses for large prospects.
+
 
 ### <span>Data Scientist I | Pearl Health | New York, NY </span> <span>May 2023 --- June 2024</span>
  - Forecasted KPIs for clients and prospects using several models: averaging, smoothing, regression, Theta.
+<!-- TODO: report forecasting metric -->
  - Rebuilt the company's internal pricing tool (12k lines of Python) from the ground up, improving modularity, configurability, and readability.
- - Designed and implemented a new IO system for the internal pricing tool, improving accuracy by 25%.
+<!-- TODO: add metric about ease of use/commits from new hires or similar -->
+ - Designed and implemented a new IO system for the internal pricing tool, improving input accuracy by 25%.
  - Analyzed the variability of two KPIs for medical providers, practices, and Accountable Care Orgs nationwide over time.
 
 ### <span>Entry-Level Data Scientist | Gordian Data | Seattle, WA </span> <span>July 2022 --- May 2023</span>
  - Acquired a client within four months of joining the company.
- - Ported from SAS to Python (and improved) an ingest, transformation, and reporting tool for client to generate business impact reports which improved maintainability and increased speed by 10x.
- - Caught bug in client pricing tool increasing accuracy by 5%.
- - Assisted with various hiring functions: designed and built an applicant tracking system in [Airtable](https://www.airtable.com/), attended college job fairs, interviewed candidates, reviewed and rated candidates, and tracked candidates through the interview process.
+<!-- TODO: report revenue generated -->
+ - Ported from SAS to Python (and improved) an ingest, transformation, and reporting tool for client to generate business impact reports which improved maintainability and decreased runtime by 10x.
+ - Fixed bug in client pricing tool, increasing pricing accuracy by 5%.
+ - Assisted with hiring functions: designed and built an applicant tracking system in Airtable, attended college job fairs, interviewed candidates, reviewed and rated candidates, and tracked candidates through the interview process.
 
 <!-- ### <span>Architectural Drafter | Alison Miller Architect | Leavenworth, WA </span> <span>January 2022 --- July 2022</span>
  - Created architectural drawings using AutoCAD LT: floor plans, roof plans, sections, exterior elevations, window and door schedules.
@@ -65,25 +71,23 @@ adaptive variants. -->
 ## Research and Publications
 ### <span>Homelessness Prediction | Spokane Predictive Analytics | Spokane, WA </span> <span>June 2020 --- October 2023</span>
  - [Middleton, Colin D., et al. "The value of utility payment history in predicting first-time homelessness." Plos one 18.10 (2023): e0292305.](https://doi.org/10.1371/journal.pone.0292305).
- - Communicated with data providers to improve datasets over 5 iterations.
- - Performed exploratory data analysis on 4,785,131 rows of de-identified monthly billing data representing 91,591 people over a five year period.
- - Applied prediction models: Linear Regression, Cox Proportional Hazards, LSTM, Logistic Regression, and Vanilla ANN.
-    - Log model achieved highest AUC (0.81) - similar to current research that incorporated richer, though less operational, data sources.
+ - Communicated with data providers to iteratively improve dataset and presented findings to the City Countil of Spokane.
+ - Applied prediction models: Linear Regression, Cox Proportional Hazards, LSTM, Logistic Regression (LR), and Vanilla ANN.
+    - LR achieved highest AUC (0.81) - similar to current research that incorporated richer, though less operational, data sources.
  - Implemented minority class oversampling to combat extreme class imbalance (0.39% of cases were of the positive class).
- - Presented findings to the City Council of Spokane and defended as master's thesis.
 
 
 ## Project Experience
 ### <span>[The Wordler](https://app.hex.tech/60398cd0-c397-4635-a601-971b1bb7d7d2/app/bdb69a0f-db3f-426f-ac4b-5e72c89cdd8a/latest?) | Personal Project | Leavenworth, WA</span> <span>March 2022 --- April 2022</span>
  - Sourced data from Wordle website source code and Kaggle.
  - Built 6 component data filter using regular expressions in Python.
- - Published public UI using [Hex](https://hex.tech/).
+ - Published public UI using Hex.
  - Words sorted and displayed by user preference: Word Frequency, Letter Frequency, Letter Position Frequency.
 
-### <span>Document Clustering | Big Data Analytics Class Project | Spokane, WA</span> <span>January 2021 --- March 2021</span>
+### <span>[Document Clustering](https://github.com/middlec000/fhdc) | Big Data Analytics Class Project | Spokane, WA</span> <span>January 2021 --- March 2021</span>
  - Established a data processing pipeline to transform academic papers into Term Frequency-Inverse Document Frequency vectors.
  - Assisted with development of a customized K-Means algorithm optimized for sparse, largely non-overlapping vectors.
- - Currently developing a fast hierarchical text document clustering Python package as an extension of this work.
+
 
 ### <span>Predicting Traffic | Whatcom Council of Governments | Bellingham, WA</span> <span>June 2017 --- December 2017</span>
  - Surveyed community orgs for potential projects.
@@ -94,7 +98,7 @@ adaptive variants. -->
  - Software Languages: Python (pandas, numpy, statsmodels, scikit-learn, matplotlib, seaborn, poetry), R, SQL, Java, LaTeX, Markdown.
  - Software Tools: Git, Jupyter Notebooks, Visual Studio Code, Anaconda, Google Sheets, Excel, Power BI, Airtable.
  - Data Analysis: Hypothesis Testing, Correlation, Box plot, Histogram, Q-Q Plot.
- - Data Preparation: String Formatting, Filtering, Imputation, Class Balancing, Dimensionality Reduction.
+ - Data Preparation: Dimensionality Reduction, Class Balancing, Imputation, String Formatting.
  - Supervised Learning: Linear Regression, Logistic Regression, Cox Proportional Hazards, Decision Trees.
  - Unsupervised Learning: K-Means Clustering, Hierarchical Clustering, Principal Component Analysis.
  - Time Series Forecasting: Smoothing, Averaging, Auto-Regression, Theta.
